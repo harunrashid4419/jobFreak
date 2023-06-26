@@ -1,0 +1,39 @@
+.banner-section{
+    position: relative;
+}
+.banner-section .img{
+    width: 100%;
+}
+.banner-section .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.banner-section .content h1{
+    font-size: 32px;
+    color: white;
+    margin-bottom: 20px;
+}
+.banner-section .content p{
+    font-size: 14px;
+    color: white;
+    margin-bottom: 20px;
+}
+.banner-section .content button{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background: #30bae7;
+    padding: 15px 65px;
+    border-radius: 3px;
+    box-shadow: 0 4px 0 #299ec5;
+    border: 2px solid transparent;
+    transition: .6s;
+}
+.banner-section .content button:hover{
+    background: transparent;
+    border: 2px solid #30bae7;
+    box-shadow: none;
+}

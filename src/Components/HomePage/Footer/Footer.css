@@ -1,0 +1,8 @@
+.footer-section {
+    background-color: black;
+}
+.footer-section p{
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}

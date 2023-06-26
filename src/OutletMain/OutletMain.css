@@ -1,0 +1,53 @@
+.navbar-section{
+    display: flex;
+}
+.navbar-section .left{
+    width: 20%;
+}
+.navbar-section .left ul{
+    padding: 10px;
+    margin: 0;
+    background-color: gray;
+    height: 100vh;
+}
+.navbar-section .left li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+.navbar-section .left a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: .5s;
+}
+.navbar-section .left a:hover{
+    color: orange;
+}
+.navbar-section .right{
+    width: 80%;
+}
+.icon{
+    cursor: pointer;
+    display: none;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-section{
+        display: block;
+    }
+    .navbar-section .left{
+        width: 100%;
+    }
+    .navbar-section .left ul{
+        height: fit-content;
+    }
+    .navbar-section .right{
+        width: 100%;
+    }
+    .icon{
+        display: block;
+    }
+}

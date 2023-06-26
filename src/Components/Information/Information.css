@@ -1,0 +1,79 @@
+.main-info{
+    padding: 50px 10px;
+    background-color: #3C5499;
+}
+.information-section{
+    display: flex;
+}
+.information-section .left{
+    width: 25%;
+}
+.information-section .left img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.information-section .right{
+    width: 70%;
+    margin-left: 5%;
+}
+.information-section .right h1{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+.information-section .right h4{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.information-section .right p{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.social-icon{
+    margin-top: 30px;
+}
+.social-icon p{
+    font-size: 22px;
+    color: white;
+}
+.social-icon .icons{
+    display: flex;
+    margin-top: 10px;
+}
+.social-icon .icons svg{
+    background-color: orange;
+    margin-right: 10px;
+    font-size: 32px;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .5s;
+}
+.social-icon .icons svg:hover{
+    opacity: 80%;
+}
+
+@media screen and (max-width: 767px) {
+    .information-section{
+        display: block;
+    }
+    .information-section .left{
+        width: 100%;
+    }
+    .information-section .right{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .main-info{
+        margin-top: 20px;
+    }
+}
