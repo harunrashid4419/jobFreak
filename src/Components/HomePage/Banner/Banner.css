@@ -37,3 +37,11 @@
     border: 2px solid #30bae7;
     box-shadow: none;
 }
+
+@media screen and (max-width: 576px) {
+    .banner-section .content{
+        top: 20%;
+        left: 20%;
+        transform: translate(-20%, -20%);
+    }
+}

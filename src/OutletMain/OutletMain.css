@@ -43,11 +43,23 @@
     }
     .navbar-section .left ul{
         height: fit-content;
+        z-index: 999;
     }
     .navbar-section .right{
         width: 100%;
     }
     .icon{
         display: block;
+    }
+}
+@media screen and (max-width: 576px) {
+    .banner-section .content h1 {
+        font-size: 24px;
+    }
+    .banner-section .content button {
+        padding: 5px 42px;
+    }
+    .banner-section .content p {
+        margin-bottom: 10px;
     }
 }

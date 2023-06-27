@@ -46,16 +46,6 @@ function OutletMain() {
               information
             </NavLink>
           </li>
-          <li>
-            <NavLink
-              className={({ isActive }) =>
-                isActive ? "text-red-500" : "undefined"
-              }
-              to="/contact"
-            >
-              Guide
-            </NavLink>
-          </li>
         </ul>
       </div>
       <div className="right">
